@@ -1,0 +1,25 @@
+{
+  "name": "scrap",
+  "version": "1.0.0",
+  "description": "scraper for the web ",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsc && node index.js",
+    "test": "test"
+  },
+  "author": "xavier bradley",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4",
+    "@types/readline-sync": "^1.4.8"
+  }
+}
